@@ -1,5 +1,5 @@
 ## Overview of Kente
-<img src="Images/kente_logo_v1.png" width="250">
+<img src="kente_logo_v1.png" width="250">
 
 ### What is Kente? 
 Kente is a pangenome graph–based framework for detecting horizontal gene transfer (HGT) from assembled metagenomic contigs. 
