@@ -27,7 +27,8 @@ Just as Kente fabric weaves diverse strands into coherent designs, Kente the bio
 4. Minigraph
 
 ## Running Kente 
-Kente operates as 4 step pipeline.
+Kente is built to run on both fragmented and complete genomes.
+Kente operates as a 4-step pipeline.
 ### Step 1: Taxonomic Pre-filtering
 First, we use Kraken2 to identify the genera present in your assembled contigs. This drastically reduces the graph alignment search space and runtime.
 ``
