@@ -62,8 +62,7 @@ def parse_cigar_coverage(cigar_str, start_bp, mapq, identity_factor, scoreboard,
             
         elif op == 'I':
             # Insertion in Query: The query has sequence here that the Graph DOES NOT.
-            # We do NOT add score. We just advance the pointer.
-            # THIS is key for that 2082I gap.
+            
             curr_pos += length
             
         elif op == 'D':
@@ -121,7 +120,7 @@ def parse_gaf_files(gaf_dir, min_mapq):
                     mapq = int(cols[11])
                 except: continue
 
-                #Let us filter noisy alignments to get rid of false postives down the line
+                #Let us filter noisy alignments to get rid of false positives down the line
                 if mapq < min_mapq: continue
                 
                 # Extract CIGAR
