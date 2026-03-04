@@ -11,6 +11,9 @@ Kente is a pangenome graph–based framework for detecting horizontal gene trans
 
 ## Kente's Pre-Built Bacterial Pangenome Graph Database.
 In order to use Kente, you should have the pangenome graph DB downloaded, here... 
+```
+unzip kente_pangenome_graph_database_v1.0.zip
+```
 This pangenome graph database was built using minigraph and thousands of NCBI genomes, grouped by genus. 
 
 ## Why “Kente”?
