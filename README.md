@@ -72,4 +72,6 @@ python3 Kente_findHGT.py \
   --min_flank 1000
 ```
 
-
+ #### Expected Output files
+ Kente produces 2 final output files containing the candidate HGT events. One has the high confidence ABA calls, and a second partial_events.tsv contains fragmented/AB/Mosaic events. 
+ 
