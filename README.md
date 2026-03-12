@@ -6,7 +6,7 @@ Kente is a pangenome graph–based framework for detecting horizontal gene trans
 
 #### How does Kente find HGT events ? 
 1. Kente takes as input assembled contigs of varying lengths. But preferably 20kbp and longer for more HGT calls.
-2. Kente employs kraken2 as a pre-filtering and profiling step to give us an idea of what is in the sample know whihc graphs to map to. 
+2. Kente employs kraken2 as a pre-filtering and profiling step to give us an idea of what is in the sample, to give a subset of graphs to map to. 
 3. After the kraken2 step, Kente then uses minigraph to map the contigs against a pre-built bacterial genus graph database. This produces a contig-to-graph alignment file that contains the best matches of regions of the contigs to the graphs
 
 ## Kente's Pre-Built Bacterial Pangenome Graph Database.
