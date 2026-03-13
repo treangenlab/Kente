@@ -22,7 +22,7 @@ Similarly, bacterial genomes are not purely vertical lineages. Horizontal gene t
 Just as Kente fabric weaves diverse strands into coherent designs, Kente the bioinformatics tool identifies structural lineage switches woven into microbial genomes.
 
 ## Installation 
-1. The Kente Pangenome Graph Database is available for download ...
+1. The Kente Pangenome Graph Database is available for download on [Zenodo](https://zenodo.org/records/18895175)  with an example contig dataset. 
 ## Software Requirements 
 1. Python3.10+
 2. Numpy
