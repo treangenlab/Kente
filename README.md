@@ -10,7 +10,7 @@ Kente is a pangenome graph–based framework for detecting horizontal gene trans
 3. After the kraken2 step, Kente then uses minigraph to map the contigs against a pre-built bacterial genus graph database. This produces a contig-to-graph alignment file that contains the best matches of regions of the contigs to the graphs
 
 ## Kente's Pre-Built Bacterial Pangenome Graph Database.
-In order to use Kente, you should have the pangenome graph DB downloaded, here... 
+In order to use Kente, you should have the pangenome graph DB downloaded from [Zenodo](https://zenodo.org/records/18895175) 
 ```
 unzip kente_pangenome_graph_database_v1.0.zip
 ```
